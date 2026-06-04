@@ -253,13 +253,13 @@ span {
 }
 
 #parliament{
-    background-color: #f6697a;
+    background-color: #c86e77;
     font-family: 'Phantom Sans', sans-serif;
     padding: 4rem;
 }
 #parliament h1{
     margin: 0;
-    color: #222222
+    color: #eeeeee
 }
 
 #table-of-contents{
@@ -268,10 +268,33 @@ span {
     flex-wrap: wrap;
     font-family: 'Phantom Sans', sans-serif;
     padding: 2rem 3rem;
+    gap: 1rem;
+    justify-content: left;
+}
+
+#table-of-contents a{
+    text-decoration: none;
 }
 
 .thingamajig{
+    width: 22rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    vertical-align: center;
     background-color: #aaaaaa;
     padding: 1rem 2rem;
     font-size: 1.5rem;
+    color: #333333;
+    cursor: pointer;
+}
+
+.section-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+#parliament-logo{
+    height: 4rem;
 }
