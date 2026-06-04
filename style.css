@@ -93,13 +93,14 @@ body{
     }
 }
 #header{
-    background-color: #333333;
-    min-width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    align-items: center;
+    padding: 15px 3rem 20px 3rem;
     margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    vertical-align: center;
+    margin-bottom: 0;
 }
 
 #header-links{
@@ -175,4 +176,102 @@ button:hover {
 
 span {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.125);
+}
+
+
+#coat-of-arms-icon{
+    border-radius: 0.5rem;
+    height: 4rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#flag-icon{
+    height: 3rem;
+    image-rendering: pixelated;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#hcgovuk{
+    height: 100%;
+    font-family: 'Phantom Sans', sans-serif;
+    vertical-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    margin: 0;
+    line-height: 0;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#section-a{
+    background-color: #8492a6;
+    margin-top: 0;
+    font-family: 'Phantom Sans', sans-serif;
+    color: #ffffff;
+    padding: 5rem 10rem 3rem 5rem;
+}
+
+#section-a h1{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: normal
+}
+
+#section-a button{
+    border-radius: 0;
+    border-color: #555555;
+    color: #555555;
+    background-color: #e0e6ed;
+    padding: 0.75rem 1rem;
+    margin-right: 1.5rem;
+}
+
+#thing{
+    margin: 2.5rem auto 2rem 1rem
+}
+
+#disclaimer-thing{
+    color: #e0e6ed;
+    padding: 0 3rem;
+    margin-top: 4rem
+}
+
+#disclaimer-thing b, a{
+    color: #e63b50;
+}
+
+#disclaimer-thing b{
+    font-size: 1.5rem;
+}
+
+#parliament{
+    background-color: #f6697a;
+    font-family: 'Phantom Sans', sans-serif;
+    padding: 4rem;
+}
+#parliament h1{
+    margin: 0;
+    color: #222222
+}
+
+#table-of-contents{
+    background-color: #555555;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Phantom Sans', sans-serif;
+    padding: 2rem 3rem;
+}
+
+.thingamajig{
+    background-color: #aaaaaa;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
 }
