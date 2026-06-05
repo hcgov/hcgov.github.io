@@ -38,6 +38,10 @@ body{
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .body {
     font-family: 'Phantom Sans';
     text-align: center;
@@ -146,7 +150,7 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.125);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
     letter-spacing: 0.009em;
     -webkit-tap-highlight-color: transparent;
     transition: transform 0.125s ease-in-out, box-shadow 0.125s ease-in-out;
@@ -159,12 +163,11 @@ button {
     text-align: center;
     line-height: inherit;
     text-decoration: none;
-    padding: 16px 16px 16px 16px;
+    padding: 10px 20px 10px 20px;
     background-color: #e0e6ed;
     font-size:20px;
     color: #ec3750;
     border: 2px solid currentcolor;
-    padding: 5px 5px 5px 5px
 }
 button:focus,
 button:hover {
@@ -172,7 +175,11 @@ button:hover {
     transform: scale(1.0625);
 }
 
-
+.thingamajig:focus,
+.thingamajig:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.625), 0 8px 12px rgba(0,0,0,0.125);;
+    transform: scale(1.0125);
+}
 
 span {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.125);
@@ -245,7 +252,7 @@ span {
 }
 
 #disclaimer-thing b, a{
-    color: #e63b50;
+    color: #d61933;
 }
 
 #disclaimer-thing b{
@@ -253,13 +260,13 @@ span {
 }
 
 #parliament{
-    background-color: #c86e77;
+    background-color: #ec3750;
     font-family: 'Phantom Sans', sans-serif;
     padding: 4rem;
 }
 #parliament h1{
     margin: 0;
-    color: #eeeeee
+    color: #e0e6ed;
 }
 
 #table-of-contents{
@@ -288,6 +295,7 @@ span {
     font-size: 1.5rem;
     color: #333333;
     cursor: pointer;
+    transition: transform 0.125s ease-in-out, box-shadow 0.125s ease-in-out;
 }
 
 .section-title{
@@ -297,4 +305,50 @@ span {
 
 #parliament-logo{
     height: 4rem;
+}
+
+.section-title-text{
+    font-size: 3.5rem;
+}
+
+#parliament p{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: #e0e6ed;
+}
+
+#parliament button{
+    margin-right: 1rem;
+}
+
+#vote-subsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+#parliament h2{
+    color: #e0e6ed;
+    font-size: 2.4rem;
+    line-height: 1.5rem;
+}
+
+.i-am-running-out-of-names{
+    width: 50%;
+    margin-top: 2rem;
+}
+
+#vote-subsection a{
+    color: #fdcba7;
+}
+
+#vote-subsection p{
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+.medium-p{
+    font-size: 1.3rem;
+    margin-top: 0;
 }
