@@ -264,6 +264,7 @@ span {
     font-family: 'Phantom Sans', sans-serif;
     padding: 4rem;
 }
+
 #parliament h1{
     margin: 0;
     color: #e0e6ed;
@@ -305,6 +306,7 @@ span {
 
 #parliament-logo{
     height: 4rem;
+    transition: transform 0.1s ease-in-out;
 }
 
 .section-title-text{
@@ -351,4 +353,50 @@ span {
 .medium-p{
     font-size: 1.3rem;
     margin-top: 0;
+}
+
+#citizenship{
+    background-color: #5bc0de;
+    font-family: 'Phantom Sans', sans-serif;
+    padding: 4rem;
+    color: #0e3659;
+}
+
+#citizenship h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+#parliament-logo:hover,
+#parliament-logo:focus{
+    transform: scale(1.075);
+}
+
+#citizenship p{
+    font-size: 1.5rem;
+}
+
+#citizenship a{
+    font-weight: bold;
+}
+
+#citizenship h2{
+    font-size: 2.4rem;
+    margin-top: 3rem;
+}
+
+#nrc-subsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.names-are-running-out-of-i{
+    margin-top: 10%
+}
+
+#parliament a{
+    color: #fdcba7;
+    font-weight: bold;
 }
