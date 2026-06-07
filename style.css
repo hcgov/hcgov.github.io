@@ -400,3 +400,39 @@ span {
     color: #fdcba7;
     font-weight: bold;
 }
+
+#court{
+    background-color: #a633d6;
+    font-family: 'Phantom Sans', sans-serif;
+    color: #e0e6ed;
+    padding: 4rem;
+}
+
+#court h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+#court p{
+    font-size: 1.5rem;
+}
+
+#court button{
+    margin-right: 1rem;
+}
+
+#court-subsection {
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+#court-subsection h2{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+#court-subsection p{
+    font-size: 1.3rem;
+    margin-top: 0;
+}
