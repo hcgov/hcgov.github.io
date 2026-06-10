@@ -490,9 +490,10 @@ span {
     font-weight: bold;
     padding: 1rem;
     cursor: pointer;
-    background-color: #ccd8e6;
+    background-color: #c0cfe1;
     transition: transform 0.125s ease-in-out;
     border-radius: 5px;
+    margin-top: 1rem;
 }
 
 .collapsible:hover{
@@ -500,9 +501,30 @@ span {
 }
 
 .collapsible-content {
-    padding: 1rem;
+    padding: 0 1rem;
     font-size: 1.3rem;
-    display: none;
     overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-in-out;
+    background-color: #d4dde8;
+    border-radius: 0 0 15px 15px;
+    margin: 0 10px 0 10px
+}
 
+.inside-collapsible{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#contact{
+    background-color: #8492a6;
+    padding: 4rem;
+    color: #e0e6ed;
+    font-family: 'Phantom Sans', sans-serif;
+}
+
+#contact h1{
+    margin: 0;
+    font-size: 3rem;
 }
