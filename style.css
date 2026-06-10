@@ -436,3 +436,73 @@ span {
     font-size: 1.3rem;
     margin-top: 0;
 }
+
+#wiki {
+    background-color: #ff8c37;
+    padding: 4rem;
+    font-family: 'Phantom Sans', sans-serif;
+    color: #683007;
+}
+
+#wiki h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+#wiki p{
+    font-size: 1.5rem;
+}
+
+#engineering{
+    background-color: #8492a6;
+    font-family: 'Phantom Sans', sans-serif;
+    padding: 4rem;
+    color: #000000;
+}
+
+#engineering h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+#engineering p{
+    font-size: 1.5rem;
+}
+
+#engineering button{
+    margin-right: 1rem;
+}
+
+#resources {
+    background-color: #e0e6ed;
+    font-family: 'Phantom Sans', sans-serif;
+    padding: 4rem;
+    color: #333333;
+}
+
+#resources h1{
+    font-size: 3rem;
+}
+
+.collapsible{
+    font-family: 'Phantom Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #ccd8e6;
+    transition: transform 0.125s ease-in-out;
+    border-radius: 5px;
+}
+
+.collapsible:hover{
+    transform: scale(1.025);
+}
+
+.collapsible-content {
+    padding: 1rem;
+    font-size: 1.3rem;
+    display: none;
+    overflow: hidden;
+
+}
