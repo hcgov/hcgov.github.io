@@ -537,3 +537,29 @@ span {
 .collapsible.active .caret {
     transform: rotate(90deg);
 }
+
+#contact h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+.contact-line{
+    display: flex;
+}
+
+#contact p{
+    font-size: 2rem;
+    margin-top: 0.45rem;
+}
+
+#contact svg{
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+#contact a{
+    all: unset;
+    cursor: pointer;
+    color: #f4d34c;
+}
