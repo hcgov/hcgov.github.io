@@ -563,3 +563,106 @@ span {
     cursor: pointer;
     color: #f4d34c;
 }
+
+@media (max-width: 768px){
+    #header{
+        padding: 1rem;
+    }
+
+    #coat-of-arms-icon{
+        display: none;
+    }
+
+    #hcgovuk{
+        display: none;
+    }
+
+    #icons{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section-a{
+        padding: 3rem 2rem;
+    }
+
+    #section-a h1{
+        font-size: 3rem;
+    }
+
+    #thing{
+        margin: 1rem;
+    }
+
+    #disclaimer-thing{
+        padding: 0;
+    }
+
+    #table-of-contents{
+        padding: 1rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .thingamajig{
+        width: 80vw;
+        font-size: 1.3rem;
+    }
+
+    #parliament-logo {
+        display: none;
+    }
+
+    .thingamajig svg{
+        width: 24px;
+        height: 24px;
+    }
+
+    #engineering-icon{
+        width: 24px;
+        height: 24px;
+    }
+
+    #parliament,
+    #citizenship,
+    #court,
+    #wiki,
+    #engineering{
+        padding: 2.5rem;
+    }
+
+    #parliament h1,
+    #citizenship h1,
+    #court h1,
+    #wiki h1,
+    #engineering h1{
+        font-size: 2.7rem;
+    }
+
+    #parliament h2,
+    #citizenship h2,
+    #court h2,
+    #engineering h2{
+        line-height: 2rem;
+    }
+
+    #parliament p,
+    #citizenship p,
+    #court p,
+    #wiki p,
+    #engineering p{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    #vote-subsection,
+    #nrc-subsection,
+    #court-subsection{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .i-am-running-out-of-names{
+        width: 80vw;
+    }
+}
