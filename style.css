@@ -528,3 +528,12 @@ span {
     margin: 0;
     font-size: 3rem;
 }
+
+.caret{
+    vertical-align: middle;
+    transition: transform 0.125s ease-in-out;
+}
+
+.collapsible.active .caret {
+    transform: rotate(90deg);
+}
