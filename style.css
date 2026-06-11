@@ -627,7 +627,9 @@ span {
     #citizenship,
     #court,
     #wiki,
-    #engineering{
+    #engineering,
+    #resources,
+    #contact{
         padding: 2.5rem;
     }
 
@@ -635,7 +637,9 @@ span {
     #citizenship h1,
     #court h1,
     #wiki h1,
-    #engineering h1{
+    #engineering h1,
+    #resources h1,
+    #contact h1{
         font-size: 2.7rem;
     }
 
@@ -650,7 +654,8 @@ span {
     #citizenship p,
     #court p,
     #wiki p,
-    #engineering p{
+    #engineering p,
+    #contact p{
         font-size: 1.2rem;
         line-height: 1.6rem;
     }
@@ -664,5 +669,17 @@ span {
 
     .i-am-running-out-of-names{
         width: 80vw;
+    }
+
+    .collapsible{
+        font-size: 1.5rem;
+    }
+
+    .inside-collapsible{
+        font-size: 1.1rem;
+    }
+
+    #contact h2{
+        font-size: 1.8rem;
     }
 }
